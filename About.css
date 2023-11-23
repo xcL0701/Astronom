@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(Asset/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 100px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: all 0.3s linear;
+}
+
+.nav-links ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.textbox{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 34%;
+    color: #fff;
+    transform: translate(-50% -50%);
+}
+
+.textbox h1{
+    font-size: 80px;
+}
+
+/* Content */
+.about{
+    width: 40%;
+    margin: auto;
+    padding-bottom: 50px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.about .about-text{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-us h1{
+    margin-top: 8vh;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about .about-text p{
+    font-size: 20px;
+}
+
+/* FOOTER */
+.footer{
+    margin-top: 50px;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #000414;
+    align-items: center;
+}
+
+.footer p{
+    padding-top: 38px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
